@@ -1,9 +1,9 @@
 # Илья Белоножко, 1 подгруппа
 ## 1 Добавить пользователей разных оболочек и пароли для них
-sudo useradd -s /bin/bash user1
-sudo useradd -s /bin/sh user2
-sudo passwd user1
-sudo passwd user2
+sudo useradd -s /bin/bash user1 \n
+sudo useradd -s /bin/sh user2 \n
+sudo passwd user1 \n
+sudo passwd user2 \n
 
 ### посмотреть результат
 cd /home 
@@ -17,12 +17,14 @@ sudo usermod -a -G user1 user2
 ### Результат
 groups user1
 groups user2
+![cd home и ls](image2.png)
 
 3 ## Права доступа на файлы в директории пользователя
 Зайти под юзером
 su user1
 его файлы
 ls -la
+![cd home и ls](image3.png)
 
 4 ## Создание файла с всевозможными правами
 echo "something" >> testfile1

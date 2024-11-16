@@ -8,7 +8,7 @@ sudo passwd user2
 ### посмотреть результат
 cd /home 
 ls
-![cd home и ls](image1.jpeg)
+![cd home и ls](image1.png)
 
 ## 2 Добавить user1 в adm; user2 в user1
 sudo usermod -a -G adm user1

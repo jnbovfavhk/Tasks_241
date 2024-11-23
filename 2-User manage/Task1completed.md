@@ -30,6 +30,17 @@ ls -la
 echo "something" >> testfile1  
 chmod 777 testfile1  
 
+## 8 удаление user2 через user1  
+### редактируем файл sudoers так, чтобы пользователи из группы wheel(или любой другой) смогли использовать sudo
+sudo vim /etc/sudoers  
+:wq!
+### добавляем user1 в wheel  
+sudo usermod -aG wheel user1
+### заходим под user1 и удаляем user2 с его домашней папкой  
+su user1  
+sudo userdel -r user2
+
+
 ## 9 Изменить владельца папки  
 sudo chown -R user1:adm /home/student testfile1
 ## Теоретическите вопросы

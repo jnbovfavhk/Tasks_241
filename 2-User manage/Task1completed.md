@@ -31,7 +31,7 @@ echo "something" >> testfile1
 chmod 777 testfile1  
 
 ## 9 Изменить владельца папки  
-chown -R user1:adm /home/user2/testfolder
+sudo chown -R user1:adm /home/student testfile1
 ## Теоретическите вопросы
 3 Права доступа определяют кто и что может делать с определенным файлом или папкой пользователя.  
 Есть права read, write, execute или rwx. Изменение прав происходит с помощью chmod  

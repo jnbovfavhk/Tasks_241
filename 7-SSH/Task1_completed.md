@@ -14,4 +14,5 @@
 `sudo passwd ssh_user`  
 ![](ssh_user.png)  
 **9 и 10**  
-![](ssh_userDenied.png)
+![](ssh_userDenied.png)  
+**11** удаленные хосты, к которым подключался пользователь(/home/user/.ssh/known_hosts)

@@ -2,7 +2,7 @@
 **1** порт ssh по умолчанию - 22  
 **2** изменить - флаг -p  
 **3** sshd отвечает за обработку запросов на подключение к ssh  
-**4** файл конфигурации ssh пользователя в alt linux - /etc/.ssh/config, сервера - /etc/openssh/sshd_config    
-**5** ![](ssh.png)
+**4** файл конфигурации ssh пользователя в alt linux - /etc/.ssh/config, сервера - /etc/openssh/sshd_config  
+**5** ![](ssh.png)  
 **6** ssh -p 205 root@95.31.204.147  
 ![](rootLogin.png)

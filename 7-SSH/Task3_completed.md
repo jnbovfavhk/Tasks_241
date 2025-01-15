@@ -21,4 +21,7 @@ Ssh ключи - пара ключей, публичный и приватный
 ![](iConnected.png)  
 Пароль не просили:)  
 ## 6 Запретите подключение с паролем для всех пользователей, оставьте только с помощью ключа.  
+Я раскомментировал в файле `/etc/openssh/sshd_config` строки  
+`PasswordAuthentication no  
+ChallengeResponseAuthentication no`
 ![](permissDeny.png)

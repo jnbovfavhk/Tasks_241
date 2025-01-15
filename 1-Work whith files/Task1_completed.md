@@ -10,15 +10,15 @@
 Внутри папки создать файлик и записать в него что-нибудь  
 `echo "что-нибудь" > dir/file`  
 Переместить файл из одно директории в другую  
-mv dir1 dir2  
+`mv dir1 dir`  
 скопировать файл из одной директории в другую  
-cp dir1 dir2  
+`cp dir1 dir2`  
 переименовать файл  
-mv file1 file2  
+`mv file1 file2`  
 сравнить содержимое файла  
-diff file1 file2  
+`diff file1 file2`  
 отсортировать содержимоей файла по возрастанию и убыванию  
-sort file1 -o newfile  
-sort -r file1 newfile2  
+`sort file1 -o newfile`  
+`sort -r file1 newfile2`  
 удалить все папки и файлы  
-rm -rf  
+`rm -rf`  
